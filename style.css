@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/fondo2.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  height: 60vh;
+  background-image: url(img/header.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+  z-index: 2;
+}
+
+.active:hover {
+  background-color: #7f411b;
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #7f411b;
+  color: white;
+}
+
+.botones {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.icon__pizza {
+  padding: 20px;
+  background-color: rgba(244, 245, 230, 0.8);
+  border-top: white;
+  border-bottom: white;
+  border-right: white;
+  border-style: groove;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon__pizza:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0, 7s;
+  transition: 0, 7s;
+  -webkit-box-shadow: 3px 3px 5px 3px;
+          box-shadow: 3px 3px 5px 3px;
+}
+
+.icon__burger {
+  padding: 20px;
+  background-color: rgba(244, 245, 230, 0.8);
+  border-top: white;
+  border-bottom: white;
+  border-left: white;
+  border-style: groove;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon__burger:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0, 7s;
+  transition: 0, 7s;
+  -webkit-box-shadow: 3px 3px 5px 3px;
+          box-shadow: 3px 3px 5px 3px;
+}
+
+.icon__papas {
+  padding: 20px;
+  background-color: rgba(244, 245, 230, 0.8);
+  border-top: white;
+  border-bottom: white;
+  border-style: groove;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon__papas:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0, 7s;
+  transition: 0, 7s;
+  -webkit-box-shadow: 3px 3px 5px 3px;
+          box-shadow: 3px 3px 5px 3px;
+}
+
+.container-fluid.fotos {
+  height: 200px;
+}
+
+.marron {
+  font-family: "Encode Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-style: normal;
+  text-align: center;
+  color: #7f411b;
+  padding: 20px;
+  background-color: rgba(244, 245, 230, 0.6);
+  height: 100px;
+  text-shadow: 1px 1px 4px;
+  overflow: hidden;
+}
+
+.platos {
+  background-image: url(img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+  border-top: solid #7f411b;
+  height: 4g00px;
+}
+
+.menu__1 {
+  background-image: url(img/platodeldia.JPG);
+  height: 300px;
+  margin: 50px;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu__2 {
+  background-image: url(img/plato2.JPG);
+  height: 300px;
+  margin: 50px;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu__3 {
+  background-image: url(img/plato3.JPG);
+  height: 300px;
+  margin: 50px;
+  background-position: center;
+  background-size: cover;
+}
+
+.negro--claro {
+  text-align: center;
+  width: 100%;
+  background-color: #3a3a3a;
+}
+
+.blanco {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+
+.redes {
+  padding: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.pedido {
+  overflow: hidden;
+  text-align: center;
+  color: black;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+}
+
+.pedido.oscuro {
+  color: black;
+  padding: 20px;
+}
+
+.pedido.claro {
+  color: white;
+  padding: 20px;
+}
+
+.mapa {
+  padding-left: 30px;
+}
+
+.centro {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1700px;
+  height: 500px;
+  padding: 50px;
+}
+
+.local {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+#menuCompleto {
+  background-color: #3a3a3a;
+  padding-bottom: 100px;
+}
+
+.menu {
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  list-style: square;
+}
+
+.marron1 {
+  font-family: "Encode Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  color: #7f411b;
+  padding: 20px;
+  background-color: rgba(244, 245, 230, 0.6);
+  height: 100px;
+  text-shadow: 1px 1px 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .platos {
+    height: 700px;
+  }
+  .menu__1 {
+    height: 200px;
+    margin: 10px;
+  }
+  .menu__2 {
+    height: 200px;
+    margin: 10px;
+  }
+  .menu__3 {
+    height: 200px;
+    margin: 10px;
+  }
+  .negro--claro {
+    height: 370px;
+  }
+  .marron {
+    font-size: 35px;
+    padding: 5px;
+  }
+  .titulo {
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
