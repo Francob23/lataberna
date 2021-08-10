@@ -14,7 +14,7 @@ $headings:(
 );
 $color1:map-get($headings, color1);
 $color2:map-get($headings, color2);
-$color3:map-get($headings, color4);
+$color3:map-get($headings, color3);
 $color4:map-get($headings, color4);
 body {
 	background-image: url(img/fondo2.jpg);
@@ -205,7 +205,7 @@ body {
 }
 .menu {
 	font-family: $textos;
-	color: $color2;
+	color: $color3;
 	font-weight: bold;
 	padding: 10px;
 	list-style: square;
