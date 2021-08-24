@@ -5,7 +5,8 @@
           box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -160,7 +161,7 @@ body {
 }
 
 .menu__2 {
-  background-image: url(img/plato2.JPG);
+  background-image: url(img/plato2.jpg);
   height: 300px;
   margin: 50px;
   background-position: center;
@@ -168,7 +169,7 @@ body {
 }
 
 .menu__3 {
-  background-image: url(img/plato3.JPG);
+  background-image: url(img/plato3.jpg);
   height: 300px;
   margin: 50px;
   background-position: center;

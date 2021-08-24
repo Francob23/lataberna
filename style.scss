@@ -17,9 +17,10 @@ $color2:map-get($headings, color2);
 $color3:map-get($headings, color3);
 $color4:map-get($headings, color4);
 
-html, body {
+html,
+body {
 	overflow-x: hidden;
-  }
+}
 
 body {
 	background-image: url(img/fondo2.jpg);
@@ -155,7 +156,7 @@ body {
 }
 
 .menu__2 {
-	background-image: url(img/plato2.JPG);
+	background-image: url(img/plato2.jpg);
 	height: 300px;
 	margin: 50px;
 	background-position: center;
@@ -163,7 +164,7 @@ body {
 }
 
 .menu__3 {
-	background-image: url(img/plato3.JPG);
+	background-image: url(img/plato3.jpg);
 	height: 300px;
 	margin: 50px;
 	background-position: center;
@@ -294,7 +295,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	background-color: rgba(199, 158,0,0.1);
+	background-color: rgba(199, 158, 0, 0.1);
 	width: 100%;
 }
 
@@ -348,32 +349,37 @@ body {
 	max-width: 100%;
 	display: block;
 }
-.karaoke{
+
+.karaoke {
 	color: $color3;
 	background-color: $color4;
 	padding: 20px;
 	border: 2px solid $color3;
 }
-.galeria{
+
+.galeria {
 	padding: 20px;
+
 	&:hover {
 		transform: scale(1.1);
 		transition: 0, 7s;
 	}
 }
 
-.ft{
+.ft {
 	height: 100%;
 	width: 100%;
 	border: 2px solid $color3;
 }
 
-.fondo{
+.fondo {
 	background-color: $color4;
 }
-.carousel{
+
+.carousel {
 	width: 1000px;
 }
+
 @media screen and (min-width:280px) and (max-width:766px) {
 	.platos {
 		height: 700px;
@@ -432,7 +438,8 @@ body {
 		padding-right: 50px;
 
 	}
-	.carousel{
+
+	.carousel {
 		width: 300px;
 	}
 
@@ -464,7 +471,8 @@ body {
 		width: 700px;
 		margin: 20px;
 	}
-	.carousel{
+
+	.carousel {
 		width: 600px;
 	}
 }
@@ -496,7 +504,7 @@ body {
 		margin: 50px;
 	}
 
-	.carousel{
+	.carousel {
 		width: 800px;
 	}
 }
