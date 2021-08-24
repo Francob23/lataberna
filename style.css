@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   background-image: url(img/fondo2.jpg);
   background-size: 100%;
@@ -312,6 +316,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: rgba(199, 158, 0, 0.1);
+  width: 100%;
 }
 
 .menu:hover img {
@@ -366,6 +372,38 @@ body {
   display: block;
 }
 
+.karaoke {
+  color: #f4f5e6;
+  background-color: #3a3a3a;
+  padding: 20px;
+  border: 2px solid #f4f5e6;
+}
+
+.galeria {
+  padding: 20px;
+}
+
+.galeria:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0, 7s;
+  transition: 0, 7s;
+}
+
+.ft {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #f4f5e6;
+}
+
+.fondo {
+  background-color: #3a3a3a;
+}
+
+.carousel {
+  width: 1000px;
+}
+
 @media screen and (min-width: 280px) and (max-width: 766px) {
   .platos {
     height: 700px;
@@ -373,17 +411,17 @@ body {
   .menu__1 {
     height: 200px;
     width: 300px;
-    margin: 5px;
+    margin: 15px;
   }
   .menu__2 {
     height: 200px;
     width: 300px;
-    margin: 5px;
+    margin: 15px;
   }
   .menu__3 {
     height: 200px;
     width: 300px;
-    margin: 5px;
+    margin: 15px;
   }
   .negro--claro {
     height: 370px;
@@ -413,6 +451,9 @@ body {
     padding: 20px;
     padding-right: 50px;
   }
+  .carousel {
+    width: 300px;
+  }
 }
 
 @media screen and (min-width: 767px) and (max-width: 768px) {
@@ -422,6 +463,24 @@ body {
     padding: 20px;
     padding-right: 50px;
   }
+  .menu__1 {
+    height: 200px;
+    width: 700px;
+    margin: 20px;
+  }
+  .menu__2 {
+    height: 200px;
+    width: 700px;
+    margin: 20px;
+  }
+  .menu__3 {
+    height: 200px;
+    width: 700px;
+    margin: 20px;
+  }
+  .carousel {
+    width: 600px;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -430,6 +489,24 @@ body {
     width: 900px;
     padding: 20px;
     padding-right: 50px;
+  }
+  .menu__1 {
+    height: 150px;
+    width: 220px;
+    margin: 50px;
+  }
+  .menu__2 {
+    height: 150px;
+    width: 220px;
+    margin: 50px;
+  }
+  .menu__3 {
+    height: 150px;
+    width: 220px;
+    margin: 50px;
+  }
+  .carousel {
+    width: 800px;
   }
 }
 /*# sourceMappingURL=style.css.map */

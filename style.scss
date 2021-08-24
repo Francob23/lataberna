@@ -17,6 +17,10 @@ $color2:map-get($headings, color2);
 $color3:map-get($headings, color3);
 $color4:map-get($headings, color4);
 
+html, body {
+	overflow-x: hidden;
+  }
+
 body {
 	background-image: url(img/fondo2.jpg);
 	background-size: $completo;
@@ -290,6 +294,8 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	background-color: rgba(199, 158,0,0.1);
+	width: 100%;
 }
 
 .menu:hover img {
@@ -342,7 +348,32 @@ body {
 	max-width: 100%;
 	display: block;
 }
+.karaoke{
+	color: $color3;
+	background-color: $color4;
+	padding: 20px;
+	border: 2px solid $color3;
+}
+.galeria{
+	padding: 20px;
+	&:hover {
+		transform: scale(1.1);
+		transition: 0, 7s;
+	}
+}
 
+.ft{
+	height: 100%;
+	width: 100%;
+	border: 2px solid $color3;
+}
+
+.fondo{
+	background-color: $color4;
+}
+.carousel{
+	width: 1000px;
+}
 @media screen and (min-width:280px) and (max-width:766px) {
 	.platos {
 		height: 700px;
@@ -351,19 +382,19 @@ body {
 	.menu__1 {
 		height: 200px;
 		width: 300px;
-		margin: 5px;
+		margin: 15px;
 	}
 
 	.menu__2 {
 		height: 200px;
 		width: 300px;
-		margin: 5px;
+		margin: 15px;
 	}
 
 	.menu__3 {
 		height: 200px;
 		width: 300px;
-		margin: 5px;
+		margin: 15px;
 	}
 
 	.negro--claro {
@@ -401,7 +432,9 @@ body {
 		padding-right: 50px;
 
 	}
-
+	.carousel{
+		width: 300px;
+	}
 
 }
 
@@ -413,6 +446,27 @@ body {
 		padding-right: 50px;
 
 	}
+
+	.menu__1 {
+		height: 200px;
+		width: 700px;
+		margin: 20px;
+	}
+
+	.menu__2 {
+		height: 200px;
+		width: 700px;
+		margin: 20px;
+	}
+
+	.menu__3 {
+		height: 200px;
+		width: 700px;
+		margin: 20px;
+	}
+	.carousel{
+		width: 600px;
+	}
 }
 
 @media screen and (min-width:769px) and (max-width:1024px) {
@@ -422,5 +476,27 @@ body {
 		padding: 20px;
 		padding-right: 50px;
 
+	}
+
+	.menu__1 {
+		height: 150px;
+		width: 220px;
+		margin: 50px;
+	}
+
+	.menu__2 {
+		height: 150px;
+		width: 220px;
+		margin: 50px;
+	}
+
+	.menu__3 {
+		height: 150px;
+		width: 220px;
+		margin: 50px;
+	}
+
+	.carousel{
+		width: 800px;
 	}
 }
